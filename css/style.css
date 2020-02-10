@@ -1,0 +1,153 @@
+body{
+    background-color: #eeeeee;
+    color: #121212;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.parents{
+    width: 100%;
+    text-align: justify;
+
+}
+
+.parent{
+    border: 2px solid #eeeeee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 50%;
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 2%;
+    background-color: #ffffff;
+}
+.parent1{
+    padding-left: 5px;
+    border: 2px solid #eeeeee;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2%;
+    
+}
+
+.divText{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    width: 48%;
+    height: 25%;
+    text-align: center;
+    display: inline-block;
+}
+.imgProfile{
+    text-align: center;
+    width: 48%;
+    height: 25%;
+    display: inline-block;
+}
+.img{
+    border: 5px solid #ffffff;
+    border-radius: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 200px;
+    height: 200px;
+}
+.nom{
+    font-size: 30px;
+}
+.dev{
+    color: #aeb8cf;
+    font-size: 30px;
+}
+a{
+    text-decoration: none; 
+    color: black;
+
+ }
+ .kin{
+    color: #82C5E9;
+ }
+a:hover{
+   text-decoration: none; 
+   color: #aeb8cf;
+   cursor: pointer;
+}
+.etude{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    width: 100%;
+    height: 25%;  
+}
+.etu{
+    margin-bottom: 4%;
+    color: #aeb8cf;
+    font-size: 30px;
+    text-align: center;
+}
+
+.parent2{
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+
+}
+
+.rs{
+    display: inline-block;
+
+}
+.lgrs{
+    width: 20px;
+    height: 20px;
+}
+.parent2{
+    text-align: center;
+}
+.parent3{
+    border: 2px solid #eeeeee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 50%;
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 2%;
+    background-color: #ffffff;
+    text-align: center;
+    
+  }
+  .fab{
+      font-size: 1100%;
+      margin: 2%;
+  }
+  .about{
+      text-align: justify;
+  }
+  @media screen and (max-width:426px){ 
+      .divText{
+          width: 94%;
+          display: block;
+          font-size: 20px;
+      }
+      .imgProfile{
+          text-align: center;
+          width: 98%;
+         display: block;
+    }
+    .parent3{
+        text-align: center;
+        width: 93%;
+    }
+    .parent{
+        width: 93%;
+    }
+    .parents{
+        width: 100%;
+    }
+    ul li{
+        text-align: justify;
+    }
+
+  }
+
+  
